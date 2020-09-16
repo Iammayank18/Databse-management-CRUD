@@ -1,0 +1,42 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+
+}
+body{
+    background-color: bisque;
+}
+
+
+.heading {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu ul li {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-line: none;
+    padding-right: 10%;
+}
+
+.menu{
+    background-color: aqua;
+    color: azure;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
